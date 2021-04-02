@@ -21,7 +21,7 @@ jobs:
         run: shards install
       - name: Checks the code formatting
         run: crystal tool format --check
-      -name: Checks the code with the static analyzer
+      - name: Checks the code with the static analyzer
         run: bin/ameba
       - name: Run tests
         run: crystal spec
