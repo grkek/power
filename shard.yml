@@ -6,7 +6,7 @@ authors:
 
 development_dependencies:
   ameba:
-    github: crystal-ameba/amebas
+    github: crystal-ameba/ameba
 
 crystal: 1.0.0
 
